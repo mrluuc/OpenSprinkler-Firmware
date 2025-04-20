@@ -3,7 +3,7 @@
 ============================================
 
 This is a unified OpenSprinkler firmware for Arduino, and Linux-based OpenSprinklers such as OpenSprinkler Pi.
-This version has been forked from the original repository 
+This version has been forked from the original repository (https://github.com/OpenSprinkler/OpenSprinkler-Firmware) 
 
 Compilation instructions for OS (Arduino-based OpenSprinkler) 2.3 and 3.x:
 * Install VS Code
