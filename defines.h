@@ -432,7 +432,7 @@ enum {
 	#define PIN_SR_LATCH      21    // shift register latch pin. (modified 22-->21)
 	#define PIN_SR_DATA       27    // shift register data pin
 	#define PIN_SR_DATA_ALT   21    // shift register data pin (alternative, for RPi 1 rev. 1 boards)
-	#define PIN_SR_CLOCK       4    // shift register clock pin
+	#define PIN_SR_CLOCK       5    // shift register clock pin (modified 4-->5)
 	#define PIN_SR_OE         17    // shift register output enable pin
 	#define PIN_SENSOR1       14
 	#define PIN_SENSOR2       23
@@ -441,7 +441,7 @@ enum {
 	//#define PIN_BUTTON_2      24    // button 2
 	//#define PIN_BUTTON_3      25    // button 3
 
-	#define PIN_FREE_LIST       {0,1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24,25,26}  // free GPIO pins  (modified 21-->22)
+	#define PIN_FREE_LIST       {0,1,2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24,25,26}  // free GPIO pins  (modified 21-->22 5-->4)
 	#define ETHER_BUFFER_SIZE   16384
 
 #elif defined(OSBO) // for OSBo
